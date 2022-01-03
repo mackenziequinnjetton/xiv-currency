@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace XIVCurrency
 {
-    public partial class XIVCurrencyForm : Form
+    public partial class xivCurrencyForm : Form
     {
-        public XIVCurrencyForm()
+        public xivCurrencyForm()
         {
             InitializeComponent();
         }
