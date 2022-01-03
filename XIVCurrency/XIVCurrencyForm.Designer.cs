@@ -60,6 +60,9 @@
             this.searchTextBox.Name = "searchTextBox";
             this.searchTextBox.Size = new System.Drawing.Size(258, 27);
             this.searchTextBox.TabIndex = 1;
+            this.searchTextBox.Text = "Search for an item by name";
+            this.searchTextBox.Enter += new System.EventHandler(this.searchTextBox_Enter);
+            this.searchTextBox.Leave += new System.EventHandler(this.searchTextBox_Leave);
             // 
             // searchButton
             // 
@@ -69,6 +72,7 @@
             this.searchButton.TabIndex = 0;
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // xivCurrencyForm
             // 
