@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XIVCurrency", "XIVCurrency\XIVCurrency.csproj", "{8FB4E046-3751-484B-8EAB-3947E1E70CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB4E046-3751-484B-8EAB-3947E1E70CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB4E046-3751-484B-8EAB-3947E1E70CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB4E046-3751-484B-8EAB-3947E1E70CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB4E046-3751-484B-8EAB-3947E1E70CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF89BC2-1D82-457D-A7CD-C961ECDF3B94}
+	EndGlobalSection
+EndGlobal
