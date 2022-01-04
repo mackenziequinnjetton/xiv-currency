@@ -11,9 +11,9 @@ using Newtonsoft.Json.Linq;
 
 namespace XIVCurrency
 {
-    public partial class xivCurrencyForm : Form
+    public partial class XIVCurrencyForm : Form
     {
-        public xivCurrencyForm()
+        public XIVCurrencyForm()
         {
             InitializeComponent();
         }
