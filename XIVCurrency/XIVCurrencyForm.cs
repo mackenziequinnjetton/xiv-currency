@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
+using System.Net.Http;
 
 namespace XIVCurrency
 {
@@ -36,9 +37,12 @@ namespace XIVCurrency
 
         // Query game API for item information, and display
         // information in resultListBox
-        private void searchButton_Click(object sender, EventArgs e)
+        private async void searchButton_Click(object sender, EventArgs e)
         {
-            // Search query here
+            // Base API URL
+            var apiUrl = @"https://xivapi.com";
+
+            // HttpResponseMessage
         }
     }
 }
