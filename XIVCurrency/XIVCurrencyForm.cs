@@ -39,10 +39,11 @@ namespace XIVCurrency
         // information in resultListBox
         private async void searchButton_Click(object sender, EventArgs e)
         {
-            // Base API URL
-            var apiUrl = @"https://xivapi.com";
+            // API search URL
+            var apiUrl = @"https://xivapi.com/search?limit=10&string=";
 
-            // HttpResponseMessage
+            HttpResponseMessage apiRequest = 
+                await $"{apiUrl}{searchTextBox.Text}";
         }
     }
 }
