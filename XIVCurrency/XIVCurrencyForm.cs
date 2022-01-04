@@ -8,14 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
-using System.Net.Http;
 using Flurl;
 using Flurl.Http;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace XIVCurrency
 {
     public partial class XivCurrencyForm : Form
     {
+        private static HttpClient HttpClient;
+        
         public XivCurrencyForm()
         {
             InitializeComponent();
@@ -42,10 +45,27 @@ namespace XIVCurrency
         private async void searchButton_Click(object sender, EventArgs e)
         {
             // API search URL
-            var apiUrl = @"https://xivapi.com/search?limit=10&string=";
+            var apiUrl = 
+                @"https://xivapi.com/search?indexes=Itemlimit=10&string=";
 
-            HttpResponseMessage apiRequest = 
-                await $"{apiUrl}{searchTextBox.Text}";
+            /*HttpResponseMessage apiRequest =
+                (HttpResponseMessage)
+                await $"{apiUrl}{searchTextBox.Text}".GetAsync();*/
+
+            HttpClient = new HttpClient();
+
+            HttpResponseMessage apiRequest = await HttpClient.GetAsync(
+                $"{apiUrl}{searchTextBox.Text}");
+
+            /*JObject apiResponse = (JObject)JsonConvert.DeserializeObject(
+                apiRequest.Content.ReadAsStringAsync().Result);*/
+
+            JObject apiResponse = JObject.Parse(apiRequest.ToString());
+
+            MessageBox.Show($"{apiResponse}");
+
+            apiRequest.Dispose();
+            apiResponse.Dispose();
         }
     }
 }
