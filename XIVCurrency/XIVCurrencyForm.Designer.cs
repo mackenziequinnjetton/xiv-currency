@@ -84,7 +84,7 @@
             this.Controls.Add(this.resultListBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "xivCurrencyForm";
-            this.Text = "XIV Currency";
+            this.Text = "XIVCurrency";
             this.searchPanel.ResumeLayout(false);
             this.searchPanel.PerformLayout();
             this.ResumeLayout(false);
