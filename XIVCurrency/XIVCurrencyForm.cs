@@ -12,9 +12,9 @@ using System.Net.Http;
 
 namespace XIVCurrency
 {
-    public partial class XIVCurrencyForm : Form
+    public partial class XivCurrencyForm : Form
     {
-        public XIVCurrencyForm()
+        public XivCurrencyForm()
         {
             InitializeComponent();
         }

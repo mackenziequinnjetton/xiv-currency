@@ -1,6 +1,6 @@
 ﻿namespace XIVCurrency
 {
-    partial class XIVCurrencyForm
+    partial class XivCurrencyForm
     {
         /// <summary>
         ///  Required designer variable.

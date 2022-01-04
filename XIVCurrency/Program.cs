@@ -17,7 +17,7 @@ namespace XIVCurrency
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new XIVCurrencyForm());
+            Application.Run(new XivCurrencyForm());
         }
     }
 }
