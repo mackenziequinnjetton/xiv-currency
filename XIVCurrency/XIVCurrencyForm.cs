@@ -16,9 +16,7 @@ using Newtonsoft.Json;
 namespace XIVCurrency
 {
     public partial class XivCurrencyForm : Form
-    {
-        private static HttpClient HttpClient;
-        
+    {   
         public XivCurrencyForm()
         {
             InitializeComponent();
