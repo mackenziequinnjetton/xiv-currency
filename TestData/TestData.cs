@@ -2,7 +2,7 @@
 
 namespace TestData
 {
-    // Sample vendor data for testing purposes
+    // Sample game data for testing purposes
     public static class TestData
     {
 

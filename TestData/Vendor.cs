@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestData
 {
+    // Represents an item vendor in the game
     public class Vendor
     {
         public string Name { get; set; }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace XIVCurrencyClasses
 {
+    // Represents an in-game currency
     public class Currency
     {
         public string Name { get; set; }

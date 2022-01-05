@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestData
 {
+    // Represents an in-game location containing Vendors
     public class Location
     {
         public string Name { get; set; }

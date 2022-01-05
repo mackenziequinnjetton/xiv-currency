@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace TestData
 {
+    // Represents a category of items sold by the in-game Vendor,
+    // as accessible in the Vendor's GUI
     public class ItemCategory
     {
         public string Name { get; set; }
