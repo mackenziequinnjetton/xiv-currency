@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestData\TestData.csproj" />
+    <ProjectReference Include="..\TestData\XIVCurrencyClasses.csproj" />
   </ItemGroup>
 
 </Project>

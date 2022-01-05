@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XIVCurrency", "XIVCurrency\XIVCurrency.csproj", "{8FB4E046-3751-484B-8EAB-3947E1E70CDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestData", "TestData\TestData.csproj", "{5C341D55-A6B0-4956-BBDE-7E8F664D5700}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XIVCurrencyClasses", "TestData\XIVCurrencyClasses.csproj", "{5C341D55-A6B0-4956-BBDE-7E8F664D5700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
