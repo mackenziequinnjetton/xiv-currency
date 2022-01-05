@@ -10,13 +10,14 @@ namespace TestData
     {
         public string Name { get; set; }
         public Location Location { get; set; }
-        public Category[] Categories { get; set; }
+        public ItemCategory[] ItemCategories { get; set; }
 
-        public Vendor(string name, Location location, Category[] categories)
+        public Vendor(string name, Location location, 
+            ItemCategory[] itemCategories)
         {
             Name = name;
             Location = location;
-            Categories = categories;
+            ItemCategories = itemCategories;
         }
     }
 }
