@@ -2,7 +2,9 @@
 
 namespace TestData
 {
-    public class TestData
+    // Sample shop data for testing purposes
+    public static class TestData
     {
+
     }
 }
