@@ -9,5 +9,10 @@ namespace TestData
     public class ItemCategory
     {
         public string Name { get; set; }
+
+        public ItemCategory(string name)
+        {
+            Name = name;
+        }
     }
 }
