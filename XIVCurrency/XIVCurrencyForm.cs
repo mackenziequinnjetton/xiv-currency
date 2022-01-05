@@ -7,11 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
-using Flurl;
-using Flurl.Http;
-using System.Net.Http;
-using Newtonsoft.Json;
 
 namespace XIVCurrency
 {
