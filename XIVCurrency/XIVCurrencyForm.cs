@@ -42,7 +42,7 @@ namespace XIVCurrency
 
         // Search sample game data for item information, and display
         // information in resultListBox
-        private async void searchButton_Click(object sender, EventArgs e)
+        private void searchButton_Click(object sender, EventArgs e)
         {
             
         }
