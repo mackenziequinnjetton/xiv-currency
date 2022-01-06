@@ -74,7 +74,7 @@
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
-            // xivCurrencyForm
+            // XivCurrencyForm
             // 
             this.AcceptButton = this.searchButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -83,7 +83,7 @@
             this.Controls.Add(this.searchPanel);
             this.Controls.Add(this.resultListBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "xivCurrencyForm";
+            this.Name = "XivCurrencyForm";
             this.Text = "XIVCurrency";
             this.searchPanel.ResumeLayout(false);
             this.searchPanel.PerformLayout();
