@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using XIVCurrencyClasses;
 
 namespace XIVCurrency
 {
@@ -37,7 +38,15 @@ namespace XIVCurrency
         // information in resultListBox
         private void searchButton_Click(object sender, EventArgs e)
         {
-            
+            var searchQuery = searchTextBox.Text;
+
+            foreach (var location in TestData.Locations)
+            {
+                foreach (var item in location)
+                {
+                    for
+                }
+            }
         }
     }
 }
