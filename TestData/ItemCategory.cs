@@ -13,9 +13,10 @@ namespace XIVCurrencyClasses
         public string Name { get; set; }
         public Item[] Items { get; set; }
 
-        public ItemCategory(string name)
+        public ItemCategory(string name, Item[] items)
         {
             Name = name;
+            Items = items;
         }
     }
 }
