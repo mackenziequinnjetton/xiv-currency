@@ -57,17 +57,18 @@ namespace XIVCurrency
                                 resultListBox.Items.Add(item.Name);
                                 resultListBox.Items.Add(location.Name);
                                 resultListBox.Items.Add(vendor.Name);
+                                resultListBox.Items.Add(itemCategory.Name);
                                 if (item.Currency != null)
                                 {
                                     resultListBox.Items.Add(
                                         $"{item.CurrencyCost} " +
-                                        $"{item.Currency}");
+                                        $"{item.Currency.Name}");
                                 }
                                 if (item.BarterItem != null)
                                 {
                                     resultListBox.Items.Add(
                                         $"{item.BarterCost} " +
-                                        $"{item.BarterItem}");
+                                        $"{item.BarterItem.Name}");
 
                                 }
                                 resultListBox.Items.Add(string.Empty);
