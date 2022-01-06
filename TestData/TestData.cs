@@ -259,10 +259,10 @@ namespace XIVCurrencyClasses
             new BarterItem
             (
                 "B2",
+                Currencies[1],
+                6,
                 null,
-                null,
-                BarterItems[0],
-                6
+                null
             )
         };
         public static Location[] Locations { get; set; } = 
