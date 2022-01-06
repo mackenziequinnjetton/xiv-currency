@@ -43,6 +43,9 @@ namespace XIVCurrency
             var itemFound = false;
             var searchQuery = searchTextBox.Text;
 
+            // Iterates over sample game data and, if an item with the
+            // name of the search query exists, displays its information
+            // in resultListBox
             foreach(var location in TestData.Locations)
             {
                 foreach(var vendor in location.Vendors)
@@ -58,12 +61,14 @@ namespace XIVCurrency
                                 resultListBox.Items.Add(location.Name);
                                 resultListBox.Items.Add(vendor.Name);
                                 resultListBox.Items.Add(itemCategory.Name);
+                                // If the item costs a Currency, display it
                                 if (item.Currency != null)
                                 {
                                     resultListBox.Items.Add(
                                         $"{item.CurrencyCost} " +
                                         $"{item.Currency.Name}");
                                 }
+                                // If the item costs a BarterItem, display it
                                 if (item.BarterItem != null)
                                 {
                                     resultListBox.Items.Add(
@@ -78,6 +83,7 @@ namespace XIVCurrency
                 }
             }
 
+            // If the item is not found, display a message
             if(!itemFound)
             {
                 resultListBox.Items.Add("Item was not found.");
