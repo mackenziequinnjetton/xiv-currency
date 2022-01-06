@@ -10,14 +10,11 @@ namespace XIVCurrencyClasses
     public class Vendor
     {
         public string Name { get; set; }
-        public Location Location { get; set; }
         public ItemCategory[] ItemCategories { get; set; }
 
-        public Vendor(string name, Location location, 
-            ItemCategory[] itemCategories)
+        public Vendor(string name, ItemCategory[] itemCategories)
         {
             Name = name;
-            Location = location;
             ItemCategories = itemCategories;
         }
     }
