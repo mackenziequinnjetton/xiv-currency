@@ -10,13 +10,16 @@ namespace XIVCurrencyClasses
 
     // This is a separate class from Currency because currencies and barter
     // goods are handled differently by the game
-    public class BarterItem
-    {
-        public string Name { get; set; }
 
-        public BarterItem(string name)
+    // This also inherits from Item because some BarterItems are themselves
+    // bought from Vendors with Currencies or other BarterItems
+    public class BarterItem : Item
+    {
+        public BarterItem(string name, Currency currency, int? currencyCost,
+            BarterItem barterItem, int? barterCost) 
+            : base(name, currency, currencyCost, barterItem, barterCost)
         {
-            Name = name;
+
         }
     }
 }
