@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestData
+namespace XIVCurrencyClasses
 {
     // Represents an item vendor in the game
     public class Vendor
